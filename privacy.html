@@ -1,59 +1,89 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>五彩 Gosai — プライバシーポリシー / Privacy Policy</title>
+<title>Privacy Policy — 五彩 Gosai</title>
 <style>
-body{font-family:-apple-system,"Hiragino Sans",system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#21293D;background:#F6F1E4;line-height:1.7}
-h1{font-size:24px}h2{font-size:18px;margin-top:32px;border-bottom:1px solid rgba(33,41,61,.18);padding-bottom:6px}
-.en{color:#3b4258}
+  :root { --paper:#F6F1E4; --cell:#FEFCF5; --line:#DDD3BC; --ink:#212940; --soft:#6B6F80; --frame:#293D66; --ember:#E2703A; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system, "Hiragino Sans", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif; line-height:1.75; }
+  .wrap { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:24px; }
+  .brand { font-family:"Hiragino Mincho ProN", "Yu Mincho", serif; font-weight:700; font-size:1.4rem; letter-spacing:.06em; text-decoration:none; color:var(--ink); }
+  .brand small { font-family:-apple-system, sans-serif; font-size:.7rem; letter-spacing:.2em; color:var(--soft); margin-left:8px; }
+  select { font:inherit; font-size:.9rem; padding:6px 10px; border:1px solid var(--line); border-radius:8px; background:var(--cell); color:var(--ink); }
+  h1 { font-size:1.7rem; margin:0 0 4px; }
+  .meta { color:var(--soft); font-size:.85rem; margin:0 0 20px; }
+  .card { background:var(--cell); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:12px 0; }
+  .card h2 { font-size:1.05rem; margin:0 0 6px; }
+  .card p { margin:0; }
+  a { color:var(--frame); }
+  nav a { margin-right:14px; font-size:.9rem; }
+  footer { margin-top:36px; color:var(--soft); font-size:.8rem; }
 </style>
 </head>
 <body>
-<h1>五彩 Gosai — プライバシーポリシー</h1>
-<p>最終更新: 2026-08-30</p>
-<p>五彩 Gosai（以下「本アプリ」）は、個人開発者が提供する一人用パズルゲームです。本アプリはお客様の個人情報を収集しません。</p>
-<h2>収集しない情報</h2>
-<ul>
-<li>本アプリは、氏名・メールアドレス・位置情報・連絡先・端末識別子などの個人情報を収集・送信しません。</li>
-<li>本アプリは広告を表示せず、広告 SDK や解析 SDK を含みません。</li>
-<li>ゲームの進行（星・最高スコア・購入した見た目・設定）は端末内にのみ保存されます。</li>
-</ul>
-<h2>Apple のサービス</h2>
-<ul>
-<li><strong>Game Center</strong>: 順位表と実績は Apple の Game Center を通じて提供されます。送信されるのはスコアと実績の達成状況のみで、Apple のプライバシーポリシーが適用されます。Game Center へのサインインは任意です。</li>
-<li><strong>App 内課金</strong>: 「全ステージ解放」の購入は Apple の App Store を通じて処理されます。開発者は購入者の氏名や支払い情報を受け取りません。</li>
-</ul>
-<h2>お子様について</h2>
-<p>本アプリは全年齢向け（4+）で、個人情報を収集しないため、13 歳未満のお子様に関する情報も収集しません。</p>
-<h2>変更</h2>
-<p>本ポリシーを変更する場合は、このページで告知します。</p>
-<h2>お問い合わせ</h2>
-<p>hotatsu.world@gmail.com</p>
-
-<hr>
-<div class="en">
-<h1>Gosai — Privacy Policy</h1>
-<p>Last updated: 2026-08-30</p>
-<p>Gosai (the “app”) is a single-player puzzle game made by an independent developer. The app does not collect personal information.</p>
-<h2>What we do not collect</h2>
-<ul>
-<li>The app does not collect or transmit names, email addresses, location, contacts, device identifiers or any other personal data.</li>
-<li>The app shows no advertising and contains no advertising or analytics SDKs.</li>
-<li>Game progress (stars, best scores, purchased looks and settings) is stored only on your device.</li>
-</ul>
-<h2>Apple services</h2>
-<ul>
-<li><strong>Game Center</strong>: leaderboards and achievements are provided through Apple’s Game Center. Only scores and achievement progress are submitted, under Apple’s privacy policy. Signing in to Game Center is optional.</li>
-<li><strong>In-app purchase</strong>: the “Unlock All Stages” purchase is processed by Apple’s App Store. The developer never receives your name or payment details.</li>
-</ul>
-<h2>Children</h2>
-<p>The app is rated for all ages (4+) and collects no personal information, including from children under 13.</p>
-<h2>Changes</h2>
-<p>Changes to this policy will be posted on this page.</p>
-<h2>Contact</h2>
-<p>hotatsu.world@gmail.com</p>
+<div class="wrap">
+  <header>
+    <a class="brand" href="index.html">五彩<small>GOSAI</small></a>
+    <select id="lang" aria-label="Language"></select>
+  </header>
+  <nav><a href="privacy.html" data-nav="privacy">Privacy Policy</a><a href="support.html" data-nav="support">Support</a></nav>
+  <h1 id="title">Privacy Policy — 五彩 Gosai</h1>
+  <p class="meta" id="meta"></p>
+  <p id="intro"></p>
+  <div id="sections"></div>
+  <footer>© 2026 Tatsuya · <a href="mailto:hotatsu.world@gmail.com">hotatsu.world@gmail.com</a></footer>
 </div>
+<script src="i18n.js"></script>
+<script>
+(function () {
+  var D = window.GOSAI_I18N, page = "privacy";
+  var sel = document.getElementById("lang");
+  D.langs.forEach(function (l) { var o = document.createElement("option"); o.value = l[0]; o.textContent = l[1]; sel.appendChild(o); });
+  function pick() {
+    var q = new URLSearchParams(location.search).get("lang");
+    if (q && D[page][q]) return q;
+    var cands = (navigator.languages || [navigator.language || "en"]).map(function (s) { return String(s); });
+    for (var i = 0; i < cands.length; i++) {
+      var c = cands[i];
+      if (D[page][c]) return c;
+      if (/^zh/i.test(c)) return (/hant|tw|hk|mo/i.test(c)) ? "zh-Hant" : "zh-Hans";
+      if (/^pt/i.test(c)) return "pt-BR";
+      var base = c.split("-")[0];
+      if (D[page][base]) return base;
+    }
+    return "en";
+  }
+  function render(lang) {
+    var t = D[page][lang];
+    document.documentElement.lang = lang;
+    sel.value = lang;
+    document.title = t.title + " — 五彩 Gosai";
+    document.getElementById("title").textContent = t.title;
+    document.getElementById("meta").textContent = t.updated ? (t.updated + ": " + D.updated) : "";
+    document.getElementById("intro").textContent = t.intro;
+    var nav = { privacy: D.privacy[lang].title, support: D.support[lang].title };
+    document.querySelectorAll("nav a").forEach(function (a) { a.textContent = nav[a.getAttribute("data-nav")]; a.href = a.getAttribute("data-nav") + ".html?lang=" + lang; });
+    var box = document.getElementById("sections"); box.innerHTML = "";
+    (t.s || t.q).forEach(function (row) {
+      var c = document.createElement("div"); c.className = "card";
+      var h = document.createElement("h2"); h.textContent = row[0];
+      var p = document.createElement("p"); p.textContent = row[1];
+      c.appendChild(h); c.appendChild(p);
+      if (row === (t.s || t.q)[(t.s || t.q).length - 1] && page === "privacy") {
+        var m = document.createElement("p"); var a = document.createElement("a"); a.href = "mailto:" + D.contact; a.textContent = D.contact; m.appendChild(a); c.appendChild(m);
+      }
+      box.appendChild(c);
+    });
+    if (page === "support") {
+      var c = document.createElement("div"); c.className = "card";
+      var a = document.createElement("a"); a.href = "mailto:" + D.contact; a.textContent = D.contact; c.appendChild(a); box.appendChild(c);
+    }
+  }
+  sel.addEventListener("change", function () { history.replaceState(null, "", "?lang=" + sel.value); render(sel.value); });
+  render(pick());
+})();
+</script>
 </body>
 </html>
