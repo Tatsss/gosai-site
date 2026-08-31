@@ -7,23 +7,23 @@ window.GOSAI_I18N = {
   updated: "2026-08-31",
   contact: "hotatsu.world@gmail.com",
   privacy: {
-    ja: { title: "プライバシーポリシー", updated: "最終更新", intro: "五彩 Gosai（以下「本アプリ」）は、個人開発者 Tatsuya が提供する一人用のタイルパズルです。本アプリはお客様の個人情報を収集しません。", s: [
-      ["収集するデータ", "本アプリは、氏名・メールアドレス・位置情報・端末識別子などの個人情報を収集・送信しません。解析ツールや広告 SDK も使用していません。"],
+    ja: { title: "プライバシーポリシー", updated: "最終更新", intro: "五彩 Gosai（以下「本アプリ」）は、利用者の個人情報を収集しません。本ポリシーは、本アプリにおける情報の取り扱いについて説明するものです。", s: [
+      ["収集するデータ", "本アプリは、氏名、メールアドレス、位置情報、端末識別子などの個人情報を収集・送信・第三者提供しません。広告や行動解析のための SDK も含まれていません。"],
       ["ゲームの進行データ", "星・自己ベスト・購入した見た目・設定などの進行データは、お客様の端末内にのみ保存されます。アプリを削除すると消えます。"],
       ["Game Center", "「今日の器」のスコアと実績は、お客様が Apple の Game Center にサインインしている場合にのみ Apple に送信されます。順位表に表示されるニックネームやアバターは Apple が管理し、本アプリは保存しません。Game Center の取り扱いは Apple のプライバシーポリシーに従います。"],
       ["App 内課金", "「全ステージ解放」の購入は Apple の App Store を通じて処理されます。支払い情報が開発者に渡ることはありません。"],
       ["お子様の利用", "本アプリは 4 歳以上を対象とし、お子様から意図的に個人情報を収集することはありません。"],
       ["変更", "本ポリシーを変更する場合は、このページを更新します。"],
       ["お問い合わせ", "ご質問は以下までご連絡ください。"] ] },
-    en: { title: "Privacy Policy", updated: "Last updated", intro: "Gosai (the “App”) is a single-player tile puzzle made by an independent developer, Tatsuya. The App does not collect your personal information.", s: [
-      ["Data we collect", "The App does not collect or transmit personal data such as your name, email address, location or device identifiers. It contains no analytics or advertising SDKs."],
+    en: { title: "Privacy Policy", updated: "Last updated", intro: "Gosai (the “App”) does not collect personal information. This policy explains how information is handled in the App.", s: [
+      ["Data we collect", "The App does not collect, transmit or share personal data such as your name, email address, location or device identifiers. It contains no advertising or analytics SDKs."],
       ["Game progress", "Your progress (stars, best scores, purchased looks and settings) is stored only on your device. Deleting the App deletes it."],
       ["Game Center", "Scores and achievements for Today’s Piece are sent to Apple only when you are signed in to Game Center. Nicknames and avatars shown on leaderboards are managed by Apple; the App does not store them. Game Center is governed by Apple’s privacy policy."],
       ["In-app purchases", "The “Unlock All Stages” purchase is processed by Apple’s App Store. No payment details reach the developer."],
       ["Children", "The App is rated 4+ and does not knowingly collect personal information from children."],
       ["Changes", "If this policy changes, this page will be updated."],
       ["Contact", "Questions? Reach us at the address below."] ] },
-    ko: { title: "개인정보 처리방침", updated: "최종 업데이트", intro: "Gosai(이하 “앱”)는 개인 개발자 Tatsuya가 만든 1인용 타일 퍼즐입니다. 앱은 개인정보를 수집하지 않습니다.", s: [
+    ko: { title: "개인정보 처리방침", updated: "최종 업데이트", intro: "Gosai(이하 “앱”)는 이용자의 개인정보를 수집하지 않습니다. 본 방침은 앱에서 정보를 어떻게 다루는지 설명합니다.", s: [
       ["수집하는 데이터", "앱은 이름, 이메일 주소, 위치, 기기 식별자 등의 개인정보를 수집하거나 전송하지 않습니다. 분석 도구나 광고 SDK도 사용하지 않습니다."],
       ["게임 진행 데이터", "별, 최고 기록, 구입한 외형, 설정 등의 진행 데이터는 기기 안에만 저장됩니다. 앱을 삭제하면 사라집니다."],
       ["Game Center", "오늘의 그릇의 점수와 업적은 Apple Game Center에 로그인한 경우에만 Apple로 전송됩니다. 순위표의 닉네임과 아바타는 Apple이 관리하며 앱은 저장하지 않습니다. Game Center는 Apple의 개인정보 처리방침을 따릅니다."],
@@ -31,7 +31,7 @@ window.GOSAI_I18N = {
       ["어린이", "앱은 4세 이상을 대상으로 하며 어린이의 개인정보를 의도적으로 수집하지 않습니다."],
       ["변경", "이 방침이 바뀌면 이 페이지를 갱신합니다."],
       ["문의", "궁금한 점은 아래 주소로 연락해 주세요."] ] },
-    "zh-Hans": { title: "隐私政策", updated: "最后更新", intro: "五彩 Gosai（下称“本应用”）是由独立开发者 Tatsuya 制作的单人瓷砖谜题。本应用不收集您的个人信息。", s: [
+    "zh-Hans": { title: "隐私政策", updated: "最后更新", intro: "五彩 Gosai（下称“本应用”）不收集用户的个人信息。本政策说明本应用如何处理信息。", s: [
       ["收集的数据", "本应用不收集或传输姓名、电子邮件、位置、设备标识符等个人数据，也不包含任何分析或广告 SDK。"],
       ["游戏进度", "星、最高分、已购买的外观和设置等进度仅保存在您的设备上。删除本应用即会删除这些数据。"],
       ["Game Center", "只有在您登录 Apple Game Center 时，今日之器的分数和成就才会发送给 Apple。排行榜上的昵称和头像由 Apple 管理，本应用不保存。Game Center 受 Apple 隐私政策约束。"],
@@ -39,7 +39,7 @@ window.GOSAI_I18N = {
       ["儿童", "本应用面向 4 岁以上用户，不会有意收集儿童的个人信息。"],
       ["变更", "如本政策有变更，将更新本页面。"],
       ["联系我们", "如有疑问，请通过以下地址联系。"] ] },
-    "zh-Hant": { title: "隱私權政策", updated: "最後更新", intro: "五彩 Gosai（下稱「本 App」）是由獨立開發者 Tatsuya 製作的單人瓷磚謎題。本 App 不會收集您的個人資訊。", s: [
+    "zh-Hant": { title: "隱私權政策", updated: "最後更新", intro: "五彩 Gosai（下稱「本 App」）不會收集使用者的個人資訊。本政策說明本 App 如何處理資訊。", s: [
       ["收集的資料", "本 App 不會收集或傳送姓名、電子郵件、位置、裝置識別碼等個人資料，也不含任何分析或廣告 SDK。"],
       ["遊戲進度", "星、最高分、已購買的外觀與設定等進度只儲存在您的裝置上。刪除本 App 即會刪除這些資料。"],
       ["Game Center", "只有在您登入 Apple Game Center 時，今日之器的分數與成就才會傳送給 Apple。排行榜上的暱稱與頭像由 Apple 管理，本 App 不會儲存。Game Center 受 Apple 隱私權政策規範。"],
@@ -47,7 +47,7 @@ window.GOSAI_I18N = {
       ["兒童", "本 App 適合 4 歲以上使用者，不會刻意收集兒童的個人資訊。"],
       ["變更", "如本政策有變更，將更新本頁面。"],
       ["聯絡我們", "如有疑問，請透過以下地址聯絡。"] ] },
-    es: { title: "Política de privacidad", updated: "Última actualización", intro: "Gosai (la «App») es un rompecabezas de fichas para un jugador creado por un desarrollador independiente, Tatsuya. La App no recopila tu información personal.", s: [
+    es: { title: "Política de privacidad", updated: "Última actualización", intro: "Gosai (la «App») no recopila información personal. Esta política explica cómo se trata la información en la App.", s: [
       ["Datos que recopilamos", "La App no recopila ni transmite datos personales como tu nombre, correo electrónico, ubicación o identificadores del dispositivo. No contiene SDK de análisis ni de publicidad."],
       ["Progreso del juego", "Tu progreso (estrellas, mejores puntuaciones, apariencias compradas y ajustes) se guarda solo en tu dispositivo. Al borrar la App se elimina."],
       ["Game Center", "Las puntuaciones y logros de La pieza de hoy se envían a Apple solo si has iniciado sesión en Game Center. Los apodos y avatares de las clasificaciones los gestiona Apple; la App no los guarda. Game Center se rige por la política de privacidad de Apple."],
@@ -55,7 +55,7 @@ window.GOSAI_I18N = {
       ["Menores", "La App está clasificada 4+ y no recopila a sabiendas información personal de menores."],
       ["Cambios", "Si esta política cambia, se actualizará esta página."],
       ["Contacto", "¿Preguntas? Escríbenos a la dirección de abajo."] ] },
-    "pt-BR": { title: "Política de privacidade", updated: "Última atualização", intro: "Gosai (o “App”) é um quebra-cabeça de peças para um jogador feito por um desenvolvedor independente, Tatsuya. O App não coleta suas informações pessoais.", s: [
+    "pt-BR": { title: "Política de privacidade", updated: "Última atualização", intro: "Gosai (o “App”) não coleta informações pessoais. Esta política explica como as informações são tratadas no App.", s: [
       ["Dados que coletamos", "O App não coleta nem transmite dados pessoais como nome, e-mail, localização ou identificadores do aparelho. Não contém SDKs de análise nem de publicidade."],
       ["Progresso do jogo", "Seu progresso (estrelas, melhores pontuações, aparências compradas e ajustes) fica salvo apenas no seu aparelho. Apagar o App apaga esses dados."],
       ["Game Center", "As pontuações e conquistas da Peça de hoje só são enviadas à Apple quando você está conectado ao Game Center. Apelidos e avatares das classificações são gerenciados pela Apple; o App não os armazena. O Game Center segue a política de privacidade da Apple."],
@@ -63,7 +63,7 @@ window.GOSAI_I18N = {
       ["Crianças", "O App é classificado como 4+ e não coleta intencionalmente informações pessoais de crianças."],
       ["Alterações", "Se esta política mudar, esta página será atualizada."],
       ["Contato", "Dúvidas? Fale conosco pelo endereço abaixo."] ] },
-    fr: { title: "Politique de confidentialité", updated: "Dernière mise à jour", intro: "Gosai (l’« App ») est un puzzle de tuiles solo créé par un développeur indépendant, Tatsuya. L’App ne collecte pas vos informations personnelles.", s: [
+    fr: { title: "Politique de confidentialité", updated: "Dernière mise à jour", intro: "Gosai (l’« App ») ne collecte pas d’informations personnelles. La présente politique explique le traitement des informations dans l’App.", s: [
       ["Données collectées", "L’App ne collecte ni ne transmet de données personnelles telles que votre nom, votre adresse e-mail, votre position ou les identifiants de votre appareil. Elle ne contient aucun SDK d’analyse ni de publicité."],
       ["Progression", "Votre progression (étoiles, meilleurs scores, apparences achetées et réglages) est stockée uniquement sur votre appareil. Supprimer l’App la supprime."],
       ["Game Center", "Les scores et succès de la Pièce du jour ne sont envoyés à Apple que si vous êtes connecté à Game Center. Les pseudonymes et avatars des classements sont gérés par Apple ; l’App ne les stocke pas. Game Center est régi par la politique de confidentialité d’Apple."],
@@ -71,7 +71,7 @@ window.GOSAI_I18N = {
       ["Enfants", "L’App est classée 4+ et ne collecte pas sciemment d’informations personnelles auprès des enfants."],
       ["Modifications", "Si cette politique change, cette page sera mise à jour."],
       ["Contact", "Des questions ? Écrivez-nous à l’adresse ci-dessous."] ] },
-    de: { title: "Datenschutzerklärung", updated: "Zuletzt aktualisiert", intro: "Gosai (die „App“) ist ein Solo-Plättchenrätsel eines unabhängigen Entwicklers, Tatsuya. Die App erhebt keine personenbezogenen Daten.", s: [
+    de: { title: "Datenschutzerklärung", updated: "Zuletzt aktualisiert", intro: "Gosai (die „App“) erhebt keine personenbezogenen Daten. Diese Erklärung beschreibt, wie Informationen in der App behandelt werden.", s: [
       ["Erhobene Daten", "Die App erhebt oder überträgt keine personenbezogenen Daten wie Name, E-Mail-Adresse, Standort oder Gerätekennungen. Sie enthält keine Analyse- oder Werbe-SDKs."],
       ["Spielfortschritt", "Dein Fortschritt (Sterne, Bestwerte, gekaufte Designs und Einstellungen) wird nur auf deinem Gerät gespeichert. Beim Löschen der App wird er gelöscht."],
       ["Game Center", "Punkte und Erfolge des Stücks des Tages werden nur an Apple gesendet, wenn du bei Game Center angemeldet bist. Spitznamen und Avatare in Ranglisten verwaltet Apple; die App speichert sie nicht. Für Game Center gilt die Datenschutzrichtlinie von Apple."],
@@ -79,7 +79,7 @@ window.GOSAI_I18N = {
       ["Kinder", "Die App ist ab 4 Jahren freigegeben und erhebt wissentlich keine personenbezogenen Daten von Kindern."],
       ["Änderungen", "Ändert sich diese Erklärung, wird diese Seite aktualisiert."],
       ["Kontakt", "Fragen? Schreib uns an die untenstehende Adresse."] ] },
-    it: { title: "Informativa sulla privacy", updated: "Ultimo aggiornamento", intro: "Gosai (l’«App») è un puzzle di tessere in solitario creato da uno sviluppatore indipendente, Tatsuya. L’App non raccoglie informazioni personali.", s: [
+    it: { title: "Informativa sulla privacy", updated: "Ultimo aggiornamento", intro: "Gosai (l’«App») non raccoglie informazioni personali. La presente informativa spiega come vengono trattate le informazioni nell’App.", s: [
       ["Dati raccolti", "L’App non raccoglie né trasmette dati personali come nome, e-mail, posizione o identificatori del dispositivo. Non contiene SDK di analisi o pubblicitari."],
       ["Progressi di gioco", "I tuoi progressi (stelle, record, aspetti acquistati e impostazioni) sono salvati solo sul tuo dispositivo. Eliminando l’App vengono cancellati."],
       ["Game Center", "Punteggi e obiettivi del Pezzo di oggi vengono inviati ad Apple solo se hai effettuato l’accesso a Game Center. Nickname e avatar delle classifiche sono gestiti da Apple; l’App non li memorizza. Game Center è regolato dalla privacy policy di Apple."],
@@ -87,7 +87,7 @@ window.GOSAI_I18N = {
       ["Minori", "L’App è classificata 4+ e non raccoglie consapevolmente informazioni personali dai minori."],
       ["Modifiche", "In caso di modifiche a questa informativa, questa pagina verrà aggiornata."],
       ["Contatti", "Domande? Scrivici all’indirizzo qui sotto."] ] },
-    ru: { title: "Политика конфиденциальности", updated: "Последнее обновление", intro: "Gosai («Приложение») — одиночная головоломка с плитками от независимого разработчика Tatsuya. Приложение не собирает ваши персональные данные.", s: [
+    ru: { title: "Политика конфиденциальности", updated: "Последнее обновление", intro: "Gosai («Приложение») не собирает персональные данные. Настоящая политика описывает обращение с информацией в Приложении.", s: [
       ["Какие данные мы собираем", "Приложение не собирает и не передаёт персональные данные: имя, электронную почту, местоположение, идентификаторы устройства. В нём нет SDK аналитики и рекламы."],
       ["Игровой прогресс", "Ваш прогресс (звёзды, рекорды, купленные оформления и настройки) хранится только на вашем устройстве. При удалении Приложения он удаляется."],
       ["Game Center", "Результаты и достижения Изделия дня отправляются Apple только если вы вошли в Game Center. Никнеймы и аватары в рейтингах управляются Apple; Приложение их не хранит. На Game Center распространяется политика конфиденциальности Apple."],
@@ -95,7 +95,7 @@ window.GOSAI_I18N = {
       ["Дети", "Приложение имеет рейтинг 4+ и сознательно не собирает персональные данные детей."],
       ["Изменения", "При изменении политики эта страница будет обновлена."],
       ["Контакты", "Вопросы? Напишите нам по адресу ниже."] ] },
-    nl: { title: "Privacybeleid", updated: "Laatst bijgewerkt", intro: "Gosai (de “App”) is een solo tegelpuzzel van een onafhankelijke ontwikkelaar, Tatsuya. De App verzamelt geen persoonlijke gegevens.", s: [
+    nl: { title: "Privacybeleid", updated: "Laatst bijgewerkt", intro: "Gosai (de “App”) verzamelt geen persoonlijke gegevens. Dit beleid legt uit hoe informatie in de App wordt behandeld.", s: [
       ["Gegevens die we verzamelen", "De App verzamelt of verzendt geen persoonlijke gegevens zoals je naam, e-mailadres, locatie of apparaat-ID’s. Er zit geen analyse- of advertentie-SDK in."],
       ["Spelvoortgang", "Je voortgang (sterren, records, gekochte uiterlijken en instellingen) wordt alleen op je apparaat bewaard. Als je de App verwijdert, is die weg."],
       ["Game Center", "Scores en prestaties van Het stuk van vandaag gaan alleen naar Apple als je bent aangemeld bij Game Center. Bijnamen en avatars op ranglijsten beheert Apple; de App slaat ze niet op. Voor Game Center geldt het privacybeleid van Apple."],
@@ -103,7 +103,7 @@ window.GOSAI_I18N = {
       ["Kinderen", "De App heeft leeftijdsclassificatie 4+ en verzamelt niet bewust persoonlijke gegevens van kinderen."],
       ["Wijzigingen", "Als dit beleid verandert, wordt deze pagina bijgewerkt."],
       ["Contact", "Vragen? Mail ons op het onderstaande adres."] ] },
-    pl: { title: "Polityka prywatności", updated: "Ostatnia aktualizacja", intro: "Gosai („Aplikacja”) to samotna łamigłówka z płytkami stworzona przez niezależnego dewelopera, Tatsuyę. Aplikacja nie zbiera Twoich danych osobowych.", s: [
+    pl: { title: "Polityka prywatności", updated: "Ostatnia aktualizacja", intro: "Gosai („Aplikacja”) nie zbiera danych osobowych. Niniejsza polityka wyjaśnia, jak Aplikacja obchodzi się z informacjami.", s: [
       ["Zbierane dane", "Aplikacja nie zbiera ani nie przesyła danych osobowych, takich jak imię, adres e-mail, lokalizacja czy identyfikatory urządzenia. Nie zawiera SDK analitycznych ani reklamowych."],
       ["Postępy w grze", "Twoje postępy (gwiazdki, rekordy, kupione wyglądy i ustawienia) są zapisywane tylko na Twoim urządzeniu. Usunięcie Aplikacji je kasuje."],
       ["Game Center", "Wyniki i osiągnięcia Dzieła dnia są wysyłane do Apple tylko wtedy, gdy jesteś zalogowany w Game Center. Pseudonimy i awatary w rankingach zarządza Apple; Aplikacja ich nie przechowuje. Game Center podlega polityce prywatności Apple."],
@@ -111,7 +111,7 @@ window.GOSAI_I18N = {
       ["Dzieci", "Aplikacja ma kategorię wiekową 4+ i nie zbiera świadomie danych osobowych dzieci."],
       ["Zmiany", "Jeśli polityka się zmieni, ta strona zostanie zaktualizowana."],
       ["Kontakt", "Pytania? Napisz na poniższy adres."] ] },
-    tr: { title: "Gizlilik Politikası", updated: "Son güncelleme", intro: "Gosai (“Uygulama”), bağımsız geliştirici Tatsuya tarafından yapılmış tek kişilik bir karo bulmacasıdır. Uygulama kişisel bilgilerinizi toplamaz.", s: [
+    tr: { title: "Gizlilik Politikası", updated: "Son güncelleme", intro: "Gosai (“Uygulama”) kişisel bilgi toplamaz. Bu politika, Uygulamada bilgilerin nasıl ele alındığını açıklar.", s: [
       ["Topladığımız veriler", "Uygulama; ad, e-posta adresi, konum veya cihaz tanımlayıcıları gibi kişisel verileri toplamaz ya da iletmez. Analitik veya reklam SDK’sı içermez."],
       ["Oyun ilerlemesi", "İlerlemeniz (yıldızlar, en iyi puanlar, satın alınan görünümler ve ayarlar) yalnızca cihazınızda saklanır. Uygulamayı silmek bunları da siler."],
       ["Game Center", "Günün Eseri’nin puanları ve başarımları yalnızca Game Center’a giriş yaptığınızda Apple’a gönderilir. Liderlik tablolarındaki takma adlar ve avatarlar Apple tarafından yönetilir; Uygulama bunları saklamaz. Game Center, Apple’ın gizlilik politikasına tabidir."],
@@ -119,7 +119,7 @@ window.GOSAI_I18N = {
       ["Çocuklar", "Uygulama 4+ olarak derecelendirilmiştir ve çocuklardan bilerek kişisel bilgi toplamaz."],
       ["Değişiklikler", "Bu politika değişirse bu sayfa güncellenir."],
       ["İletişim", "Sorularınız için aşağıdaki adrese yazın."] ] },
-    id: { title: "Kebijakan Privasi", updated: "Terakhir diperbarui", intro: "Gosai (“Aplikasi”) adalah teka-teki ubin pemain tunggal buatan pengembang independen, Tatsuya. Aplikasi tidak mengumpulkan informasi pribadi Anda.", s: [
+    id: { title: "Kebijakan Privasi", updated: "Terakhir diperbarui", intro: "Gosai (“Aplikasi”) tidak mengumpulkan informasi pribadi. Kebijakan ini menjelaskan bagaimana informasi ditangani di Aplikasi.", s: [
       ["Data yang kami kumpulkan", "Aplikasi tidak mengumpulkan atau mengirim data pribadi seperti nama, alamat email, lokasi, atau pengenal perangkat. Tidak ada SDK analitik atau iklan."],
       ["Kemajuan permainan", "Kemajuan Anda (bintang, skor terbaik, tampilan yang dibeli, dan pengaturan) hanya disimpan di perangkat Anda. Menghapus Aplikasi akan menghapusnya."],
       ["Game Center", "Skor dan pencapaian Karya Hari Ini dikirim ke Apple hanya jika Anda masuk ke Game Center. Nama panggilan dan avatar di papan peringkat dikelola Apple; Aplikasi tidak menyimpannya. Game Center tunduk pada kebijakan privasi Apple."],
@@ -127,7 +127,7 @@ window.GOSAI_I18N = {
       ["Anak-anak", "Aplikasi diberi peringkat 4+ dan tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak."],
       ["Perubahan", "Jika kebijakan ini berubah, halaman ini akan diperbarui."],
       ["Kontak", "Ada pertanyaan? Hubungi kami di alamat di bawah."] ] },
-    vi: { title: "Chính sách quyền riêng tư", updated: "Cập nhật lần cuối", intro: "Gosai (“Ứng dụng”) là trò xếp gạch một người chơi do nhà phát triển độc lập Tatsuya tạo ra. Ứng dụng không thu thập thông tin cá nhân của bạn.", s: [
+    vi: { title: "Chính sách quyền riêng tư", updated: "Cập nhật lần cuối", intro: "Gosai (“Ứng dụng”) không thu thập thông tin cá nhân. Chính sách này giải thích cách thông tin được xử lý trong Ứng dụng.", s: [
       ["Dữ liệu chúng tôi thu thập", "Ứng dụng không thu thập hay truyền dữ liệu cá nhân như tên, email, vị trí hay mã định danh thiết bị. Không có SDK phân tích hay quảng cáo."],
       ["Tiến trình chơi", "Tiến trình của bạn (sao, điểm cao nhất, giao diện đã mua và cài đặt) chỉ được lưu trên thiết bị. Xóa Ứng dụng sẽ xóa dữ liệu này."],
       ["Game Center", "Điểm và thành tích của Tác phẩm hôm nay chỉ được gửi tới Apple khi bạn đăng nhập Game Center. Biệt danh và ảnh đại diện trên bảng xếp hạng do Apple quản lý; Ứng dụng không lưu. Game Center tuân theo chính sách quyền riêng tư của Apple."],
@@ -135,7 +135,7 @@ window.GOSAI_I18N = {
       ["Trẻ em", "Ứng dụng xếp hạng 4+ và không cố ý thu thập thông tin cá nhân của trẻ em."],
       ["Thay đổi", "Nếu chính sách này thay đổi, trang này sẽ được cập nhật."],
       ["Liên hệ", "Có câu hỏi? Hãy liên hệ theo địa chỉ dưới đây."] ] },
-    th: { title: "นโยบายความเป็นส่วนตัว", updated: "อัปเดตล่าสุด", intro: "Gosai (“แอป”) เป็นเกมปริศนากระเบื้องเล่นคนเดียว พัฒนาโดยนักพัฒนาอิสระ Tatsuya แอปไม่เก็บข้อมูลส่วนบุคคลของคุณ", s: [
+    th: { title: "นโยบายความเป็นส่วนตัว", updated: "อัปเดตล่าสุด", intro: "Gosai (“แอป”) ไม่เก็บข้อมูลส่วนบุคคลของผู้ใช้ นโยบายนี้อธิบายวิธีจัดการข้อมูลในแอป", s: [
       ["ข้อมูลที่เราเก็บ", "แอปไม่เก็บหรือส่งข้อมูลส่วนบุคคล เช่น ชื่อ อีเมล ตำแหน่ง หรือรหัสอุปกรณ์ และไม่มี SDK สำหรับวิเคราะห์หรือโฆษณา"],
       ["ความคืบหน้าในเกม", "ความคืบหน้าของคุณ (ดาว คะแนนสูงสุด รูปลักษณ์ที่ซื้อ และการตั้งค่า) ถูกเก็บไว้ในอุปกรณ์ของคุณเท่านั้น การลบแอปจะลบข้อมูลเหล่านี้"],
       ["Game Center", "คะแนนและความสำเร็จของชิ้นงานประจำวันจะถูกส่งให้ Apple เฉพาะเมื่อคุณลงชื่อเข้า Game Center ชื่อเล่นและรูปโปรไฟล์ในตารางอันดับจัดการโดย Apple แอปไม่ได้เก็บไว้ Game Center อยู่ภายใต้นโยบายความเป็นส่วนตัวของ Apple"],
@@ -145,7 +145,7 @@ window.GOSAI_I18N = {
       ["ติดต่อ", "มีคำถาม? ติดต่อเราได้ที่อีเมลด้านล่าง"] ] }
   },
   support: {
-    ja: { title: "サポート", intro: "五彩 Gosai についてよくある質問です。解決しない場合は下のメールへどうぞ。", q: [
+    ja: { title: "サポート", intro: "五彩 Gosai についてよくある質問をまとめました。解決しない場合は、ページ末尾のメールアドレスまでお問い合わせください。", q: [
       ["遊び方が分からない", "メニューの「遊び方」に規則と点数カードの一覧があります。最初の 3 ステージは手順を案内します。"],
       ["購入したのに第三章以降が開かない", "設定の「購入を復元」を押してください。同じ Apple ID でサインインしている必要があります。ファミリー共有で買った場合も同じです。"],
       ["返金したい", "返金は Apple が扱います。reportaproblem.apple.com から申請してください。"],
@@ -154,7 +154,7 @@ window.GOSAI_I18N = {
       ["言語を変えたい", "iOS の 設定 › 五彩 › 言語 から変えられます（17 言語）。"],
       ["進行データを消したい・引き継ぎたい", "進行データは端末内にのみ保存されます。設定の「進行を初期化」で消せます。機種変更時の引き継ぎは今後のアップデートで対応予定です。"],
       ["音や振動が出ない", "設定の「音と触覚を試す」で確認できます。振動が出ない場合は iOS の 設定 › サウンドと触覚 › 触覚 を「常に再生」にしてください。"] ] },
-    en: { title: "Support", intro: "Frequently asked questions about Gosai. If your question is not here, email us below.", q: [
+    en: { title: "Support", intro: "Answers to common questions about Gosai. If you need more help, contact us at the address at the bottom of this page.", q: [
       ["How do I play?", "Open “How to Play” from the menu for the rules and every scoring card. The first three stages walk you through each step."],
       ["I bought the unlock but chapters 3+ are still locked", "Tap “Restore Purchases” in Settings. You must be signed in with the same Apple ID (or a Family Sharing member)."],
       ["I want a refund", "Refunds are handled by Apple. Request one at reportaproblem.apple.com."],
